@@ -1,0 +1,5 @@
+## Puzzle Node #13 Chess Validator
+
+Just run the script inside bin/ passing the inputs files as arguments:
+
+$ bin/chess_validator data/complex_board.txt data/complex_moves.txt

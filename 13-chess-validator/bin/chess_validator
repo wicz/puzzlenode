@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/chess/validator'
+
+if ARGV.size != 2
+  puts "Usage: chess_validator board.txt moves.txt"
+  exit 1
+end
+
+Chess::Validator.new.run(ARGV)
+

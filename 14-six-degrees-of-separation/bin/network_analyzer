@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/twitter/network_analyzer'
+
+if ARGV.size != 1
+  puts "Usage: network_analyzer input.txt"
+  exit 1
+end
+
+Twitter::NetworkAnalyzer.new.run(ARGV)

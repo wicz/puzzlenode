@@ -1,0 +1,5 @@
+## Puzzle Node #14 Six Degrees of Separation
+
+Just run the script inside bin/ passing the input file as argument:
+
+$ bin/network_analyzer data/complex_input.txt
